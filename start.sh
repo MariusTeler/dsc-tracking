@@ -26,7 +26,7 @@ echo "✓ Dependențe instalate"
 echo ""
 echo "Pornesc aplicația Flask..."
 echo ""
-echo "Aplicația va fi disponibilă la: http://localhost:5000"
+echo "Aplicația va fi disponibilă la: http://localhost:5001"
 echo "Apasă Ctrl+C pentru a opri serverul"
 echo ""
 
