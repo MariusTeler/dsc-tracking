@@ -1,0 +1,205 @@
+/* Culori inspirate din tema Dragon Star Curier */
+:root {
+    --bs-primary: #002b5c;
+    --bs-danger: #dc3545;
+    --bs-body-bg: #1a1a1a;
+    --bs-body-color: #f8f9fa;
+    --bs-border-color: #495057;
+}
+
+body {
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.bg-primary {
+    background-color: var(--bs-primary) !important;
+}
+
+/* Header compact */
+.bg-primary h1 {
+    font-size: 1.75rem;
+    margin: 0;
+}
+
+.bg-primary h2 {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.ls-wider {
+    letter-spacing: 0.1em;
+}
+
+/* Stiluri pentru progress cards */
+.border-white {
+    border-color: #fff !important;
+}
+
+.border-secondary {
+    border-color: #495057 !important;
+}
+
+/* Hover effects pentru progress cards */
+.row.g-2.g-lg-4 .col-6:hover .border {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Timeline styles */
+.timeline {
+    position: relative;
+    padding-left: 0;
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 0;
+}
+
+.timeline-item:last-child {
+    border-bottom: none !important;
+}
+
+/* Form styles */
+.form-control {
+    background-color: transparent;
+    color: var(--bs-body-color);
+    border: none;
+    border-bottom: 2px solid var(--bs-border-color);
+    border-radius: 0;
+}
+
+.form-control:focus {
+    background-color: transparent;
+    color: var(--bs-body-color);
+    border-bottom-color: var(--bs-primary);
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: rgba(248, 249, 250, 0.5);
+}
+
+/* Button styles */
+.btn-danger {
+    background-color: var(--bs-danger);
+    border-color: var(--bs-danger);
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+/* Badge styles */
+.badge {
+    font-weight: 500;
+    letter-spacing: 0.03em;
+}
+
+/* Icon styles */
+.bi {
+    vertical-align: middle;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .h1 {
+        font-size: 1.3rem;
+    }
+
+    .h3 {
+        font-size: 1rem;
+    }
+
+    .display-3 {
+        font-size: 2.5rem;
+    }
+
+    .fs-5 {
+        font-size: 0.9rem !important;
+    }
+
+    /* Header compact pe mobile */
+    .bg-primary .container {
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+    }
+}
+
+/* Animation for progress indicators */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.rounded-circle.bg-primary,
+.rounded-circle.bg-white {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Link styles */
+a {
+    color: var(--bs-primary);
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Alert styles */
+.alert {
+    border-radius: 0.5rem;
+}
+
+/* Timeline item hover effect */
+.timeline-item:hover {
+    background-color: rgba(255, 255, 255, 0.02);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    transition: all 0.3s ease;
+}
+
+/* Progress card transition */
+.col-6 .border {
+    transition: all 0.3s ease;
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bs-body-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--bs-primary);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0056b3;
+}
