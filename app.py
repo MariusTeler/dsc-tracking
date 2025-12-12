@@ -113,6 +113,252 @@ MOCK_DATA = {
                 }
             }
         ]
+    },
+    "987654321": {
+        "awb": "987654321",
+        "status_curent": "Colectata",
+        "istoric": [
+            {
+                "data": "2025-12-12 14:15:00",
+                "status": "Colectata",
+                "detalii": {
+                    "data": "2025-12-12 14:15:00",
+                    "centru": "TIMISOARA",
+                    "eveniment": "Coletare efectuata"
+                }
+            }
+        ]
+    },
+    "555888999": {
+        "awb": "555888999",
+        "status_curent": "In tranzit",
+        "istoric": [
+            {
+                "data": "2025-12-10 08:30:00",
+                "status": "Colectata",
+                "detalii": {
+                    "data": "2025-12-10 08:30:00",
+                    "centru": "IASI",
+                    "eveniment": "Coletare efectuata"
+                }
+            },
+            {
+                "data": "2025-12-10 12:45:00",
+                "status": "In tranzit",
+                "detalii": {
+                    "data": "2025-12-10 12:45:00",
+                    "centru": "IASI",
+                    "eveniment": "Iesire Centru"
+                }
+            },
+            {
+                "data": "2025-12-11 05:20:00",
+                "status": "In tranzit",
+                "detalii": {
+                    "data": "2025-12-11 05:20:00",
+                    "centru": "BACAU",
+                    "eveniment": "Intrare Centru"
+                }
+            },
+            {
+                "data": "2025-12-11 14:30:00",
+                "status": "In tranzit",
+                "detalii": {
+                    "data": "2025-12-11 14:30:00",
+                    "centru": "BACAU",
+                    "eveniment": "Iesire Centru"
+                }
+            },
+            {
+                "data": "2025-12-12 03:15:00",
+                "status": "In tranzit",
+                "detalii": {
+                    "data": "2025-12-12 03:15:00",
+                    "centru": "PLOIESTI",
+                    "eveniment": "Intrare Centru"
+                }
+            }
+        ]
+    },
+    "111222333": {
+        "awb": "111222333",
+        "status_curent": "Livrat",
+        "istoric": [
+            {
+                "data": "2025-12-09 09:00:00",
+                "status": "Colectata",
+                "detalii": {
+                    "data": "2025-12-09 09:00:00",
+                    "centru": "CONSTANTA",
+                    "eveniment": "Coletare efectuata"
+                }
+            },
+            {
+                "data": "2025-12-09 16:20:00",
+                "status": "In tranzit",
+                "detalii": {
+                    "data": "2025-12-09 16:20:00",
+                    "centru": "CONSTANTA",
+                    "eveniment": "Iesire Centru"
+                }
+            },
+            {
+                "data": "2025-12-10 02:45:00",
+                "status": "In tranzit",
+                "detalii": {
+                    "data": "2025-12-10 02:45:00",
+                    "centru": "BUCURESTI",
+                    "eveniment": "Intrare Centru"
+                }
+            },
+            {
+                "data": "2025-12-10 10:30:00",
+                "status": "In livrare",
+                "detalii": {
+                    "data": "2025-12-10 10:30:00",
+                    "centru": "BUCURESTI",
+                    "eveniment": "Pregatit pentru livrare"
+                }
+            },
+            {
+                "data": "2025-12-10 15:20:00",
+                "status": "Livrat",
+                "detalii": {
+                    "data": "2025-12-10 15:20:00",
+                    "centru": "BUCURESTI",
+                    "eveniment": "Livrat catre destinatar"
+                }
+            }
+        ]
+    },
+    "444555666": {
+        "awb": "444555666",
+        "status_curent": "In tranzit",
+        "istoric": [
+            {
+                "data": "2025-12-08 11:00:00",
+                "status": "Colectata",
+                "detalii": {
+                    "data": "2025-12-08 11:00:00",
+                    "centru": "ORADEA",
+                    "eveniment": "Coletare efectuata"
+                }
+            },
+            {
+                "data": "2025-12-08 17:30:00",
+                "status": "In tranzit",
+                "detalii": {
+                    "data": "2025-12-08 17:30:00",
+                    "centru": "ORADEA",
+                    "eveniment": "Iesire Centru"
+                }
+            },
+            {
+                "data": "2025-12-09 08:15:00",
+                "status": "In tranzit",
+                "detalii": {
+                    "data": "2025-12-09 08:15:00",
+                    "centru": "CLUJ-NAPOCA",
+                    "eveniment": "Intrare Centru"
+                }
+            },
+            {
+                "data": "2025-12-09 15:45:00",
+                "status": "In tranzit",
+                "detalii": {
+                    "data": "2025-12-09 15:45:00",
+                    "centru": "CLUJ-NAPOCA",
+                    "eveniment": "Iesire Centru"
+                }
+            },
+            {
+                "data": "2025-12-10 06:30:00",
+                "status": "In tranzit",
+                "detalii": {
+                    "data": "2025-12-10 06:30:00",
+                    "centru": "TARGU MURES",
+                    "eveniment": "Intrare Centru"
+                }
+            },
+            {
+                "data": "2025-12-10 13:00:00",
+                "status": "In tranzit",
+                "detalii": {
+                    "data": "2025-12-10 13:00:00",
+                    "centru": "TARGU MURES",
+                    "eveniment": "Iesire Centru"
+                }
+            },
+            {
+                "data": "2025-12-11 04:20:00",
+                "status": "In tranzit",
+                "detalii": {
+                    "data": "2025-12-11 04:20:00",
+                    "centru": "SIBIU",
+                    "eveniment": "Intrare Centru"
+                }
+            }
+        ]
+    },
+    "777888999": {
+        "awb": "777888999",
+        "status_curent": "In livrare",
+        "istoric": [
+            {
+                "data": "2025-12-11 07:00:00",
+                "status": "Colectata",
+                "detalii": {
+                    "data": "2025-12-11 07:00:00",
+                    "centru": "BRASOV",
+                    "eveniment": "Coletare efectuata"
+                }
+            },
+            {
+                "data": "2025-12-11 11:30:00",
+                "status": "In tranzit",
+                "detalii": {
+                    "data": "2025-12-11 11:30:00",
+                    "centru": "BRASOV",
+                    "eveniment": "Iesire Centru"
+                }
+            },
+            {
+                "data": "2025-12-11 18:45:00",
+                "status": "In tranzit",
+                "detalii": {
+                    "data": "2025-12-11 18:45:00",
+                    "centru": "PLOIESTI",
+                    "eveniment": "Intrare Centru"
+                }
+            },
+            {
+                "data": "2025-12-12 07:15:00",
+                "status": "In tranzit",
+                "detalii": {
+                    "data": "2025-12-12 07:15:00",
+                    "centru": "PLOIESTI",
+                    "eveniment": "Iesire Centru"
+                }
+            },
+            {
+                "data": "2025-12-12 09:30:00",
+                "status": "In tranzit",
+                "detalii": {
+                    "data": "2025-12-12 09:30:00",
+                    "centru": "BUCURESTI",
+                    "eveniment": "Intrare Centru"
+                }
+            },
+            {
+                "data": "2025-12-12 13:45:00",
+                "status": "In livrare",
+                "detalii": {
+                    "data": "2025-12-12 13:45:00",
+                    "centru": "BUCURESTI",
+                    "eveniment": "Pregatit pentru livrare"
+                }
+            }
+        ]
     }
 }
 

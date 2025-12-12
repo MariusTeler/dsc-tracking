@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tracking AWB - Dragon Star Curier</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
@@ -30,15 +31,59 @@
                 </form>
 
                 <div class="mt-5 p-4 border border-secondary rounded">
-                    <h5 class="mb-3">AWB-uri de test:</h5>
-                    <ul class="list-unstyled">
-                        <li class="mb-2">
-                            <a href="/tracking?awb=290591591" class="text-decoration-none">290591591</a> - Livrat
-                        </li>
-                        <li>
-                            <a href="/tracking?awb=123456789" class="text-decoration-none">123456789</a> - În livrare
-                        </li>
-                    </ul>
+                    <h5 class="mb-3">AWB-uri de test disponibile:</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <a href="/tracking?awb=290591591" class="text-decoration-none">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>290591591
+                                    </a>
+                                    <span class="text-muted small">- Livrat</span>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="/tracking?awb=111222333" class="text-decoration-none">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>111222333
+                                    </a>
+                                    <span class="text-muted small">- Livrat (Constanța)</span>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="/tracking?awb=123456789" class="text-decoration-none">
+                                        <i class="bi bi-truck text-warning me-2"></i>123456789
+                                    </a>
+                                    <span class="text-muted small">- În livrare (Cluj)</span>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="/tracking?awb=777888999" class="text-decoration-none">
+                                        <i class="bi bi-truck text-warning me-2"></i>777888999
+                                    </a>
+                                    <span class="text-muted small">- În livrare (Brașov)</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <a href="/tracking?awb=555888999" class="text-decoration-none">
+                                        <i class="bi bi-arrow-repeat text-info me-2"></i>555888999
+                                    </a>
+                                    <span class="text-muted small">- În tranzit (Iași)</span>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="/tracking?awb=444555666" class="text-decoration-none">
+                                        <i class="bi bi-arrow-repeat text-info me-2"></i>444555666
+                                    </a>
+                                    <span class="text-muted small">- În tranzit (Oradea)</span>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="/tracking?awb=987654321" class="text-decoration-none">
+                                        <i class="bi bi-box-seam text-primary me-2"></i>987654321
+                                    </a>
+                                    <span class="text-muted small">- Abia colectată (Timișoara)</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
