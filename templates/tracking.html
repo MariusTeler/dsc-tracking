@@ -9,8 +9,12 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
-    <div class="bg-primary pt-3">
-        <div class="container py-3">
+    <!-- Navigation -->
+    {% include 'components/navbar.html' %}
+
+    <!-- Hero Section -->
+    <div class="bg-primary pt-5 mt-5">
+        <div class="container py-4 mt-3">
             <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-center">
                 <h1 class="fw-bold ls-wider text-white mb-2 mb-lg-0">VERIFICARE AWB</h1>
                 {% if awb %}

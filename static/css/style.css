@@ -2,6 +2,7 @@
 :root {
     --bs-primary: #002b5c;
     --bs-danger: #dc3545;
+    --bs-red: #dc3545;
     --bs-body-bg: #1a1a1a;
     --bs-body-color: #f8f9fa;
     --bs-border-color: #495057;
@@ -11,6 +12,95 @@ body {
     background-color: var(--bs-body-bg);
     color: var(--bs-body-color);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    padding-top: 0;
+}
+
+/* Fixed Navbar */
+.navbar.fixed-top {
+    background-color: transparent;
+}
+
+.navbar {
+    z-index: 1050;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e0e0e0 !important;
+}
+
+.navbar-nav .nav-item.bg-danger {
+    background-color: var(--bs-danger) !important;
+}
+
+.navbar-nav .nav-item.bg-white .nav-link {
+    color: var(--bs-primary) !important;
+}
+
+/* Dropdown Menu Styling */
+.dropdown-menu {
+    background-color: var(--bs-body-color);
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    margin-top: 0;
+}
+
+.dropdown-item {
+    color: var(--bs-gray-dark);
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #f8f9fa;
+    color: var(--bs-primary);
+}
+
+.dropdown-item.active {
+    background-color: var(--bs-primary);
+    color: #fff;
+}
+
+.dropdown-item i {
+    width: 20px;
+}
+
+/* Mobile Offcanvas */
+.offcanvas {
+    background-color: var(--bs-body-bg);
+}
+
+.offcanvas-header {
+    background-color: var(--bs-primary);
+}
+
+.offcanvas-body {
+    padding: 0;
+}
+
+/* Floating Phone Button */
+.phone-button {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.phone-button:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+    transform: translateX(-5px);
+}
+
+.phone-button:hover .phone-number {
+    display: block !important;
 }
 
 .bg-primary {
