@@ -30,5 +30,5 @@ echo "Aplicația va fi disponibilă la: http://localhost:5000"
 echo "Apasă Ctrl+C pentru a opri serverul"
 echo ""
 
-# Pornește aplicația
-python app.py
+# Pornește aplicația pe portul 5001 (port 5000 folosit de AirPlay pe macOS)
+PORT=5001 python app.py
